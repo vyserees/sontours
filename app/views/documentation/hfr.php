@@ -1,0 +1,8 @@
+<?php
+
+?>
+<p><strong>Hassle Free Refund (HFR) Benefits:</strong> For your protection, you are automatically included in the HFR upon your Enrollment. the additional fee for the program has been added to the trip price on your initial deposit. Participation in this program IS OPTIONAL. The program protects your payments and provides a total refund (minus the HFR fee) in the event that you, the Group Leader, school, or school's administration must cancel at any time <strong>48 hours</strong> prior to the trip departure for ANY reason. You may opt out of this provision by simply checking the designated box.</p>
+<p>** A <strong>&#36;<?php echo $data[0]['tou_hfr']; ?></strong> non-refundable HFR provision fee is has been included in your tour price. If you opt to decline the HFR your tour price will be <strong>&#36;<?php echo $data[0]['psc_full']; ?></strong> </p>
+<p><strong>PLEASE CHECK IF YOU WISH TO DECLINE THE HASSLE FREE REFUND PROVISION I OPT TO DECLINE PROTECTION</strong> through the Hassle Free Refund Provision. I understand that this decision is binding and I risk forfeiting 100% of my payments if the group leader, school or school administration, or I myself must cancel from the tour, and in that event the standard cancellation refund policy will apply. </p>
+<p>In the event the tour is canceled as a result of or following an act of God, war (declared or not), terrorism, civil unrest, or in the event of Son Tours' bankruptcy, insolvency, or cessation of business the Total Refund Insurance will not make the refunds and the below stated Standard Cancellation Refund Policy will apply. </p>
+							      

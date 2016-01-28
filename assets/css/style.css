@@ -1,0 +1,230 @@
+
+/* 
+    Created on : Nov 4, 2015, 8:43:08 AM
+    Author     : vlada
+*/
+
+/*----------Common style----------*/
+p{
+    font-size: 14px;
+}
+.layout{
+    background: url('/assets/images/common/banner.jpg') no-repeat top;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a:hover{
+    text-decoration: none;
+}
+label{
+    margin:6px 0;
+}
+.datepick select{
+    width:100px;
+    display: inline-block;
+}
+.modal-body{
+    font-size: 14px !important;
+}
+.green-warning{
+    padding: 6px 0;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    background: #3ac20d;
+    color:#fff;
+    letter-spacing: 3px;
+}
+
+/*----------Messages boxes----------*/
+.msg-warning{
+    padding: 10px !important;
+    text-align: center !important;
+    font-size: 16px !important;
+    color: #fff !important;
+    background-color: #d43f3a !important;
+    font-style: normal !important;
+}
+
+/*---------Registration and Login----------*/
+.login-form{
+    margin-top: 5%;
+    background: #46b8da;
+    border: 2px solid #23527c;
+    padding: 20px;
+    box-shadow: 4px 4px 10px #777;
+    border-radius: 10px 10px 0px 0px;
+}
+.login-form h2{
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+}
+.login-form label{
+    color:#fff;
+}
+.reg-form{
+    margin-top: 5%;
+    background: #3ac20d;
+    border: 2px solid #046F0F;
+    padding: 20px;
+    color: #fff;
+    box-shadow: 4px 4px 10px #777;
+    border-radius: 10px 10px 0px 0px;
+}
+.reg-form h2{
+    font-weight: 700;
+    text-align: center;
+}
+.reg-form p{
+    font-size: 14px;
+    font-style: italic;
+    text-align: justify;
+}
+.reg-form select{
+    width: 50%;
+}
+.registration h3{
+    text-align: center;
+}
+.registration h1{
+    border: 1px solid #000;
+    background: #fff;
+    text-align: center;
+    padding: 15px 0;
+}
+.reg-part{
+    border: 1px solid #000;
+    background: #fff;
+    padding: 15px 0px;
+}
+.reg-well{
+    border: 1px solid #777;
+    background: #e7e7e7;
+}
+.reg-occ{
+    padding: 10px 30px;
+    background: #777;
+    color: #fff;
+}
+.reg-occ h3{
+    padding: 15px 0;
+    border-top:2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+.reg-occ h4{
+    padding: 10px 0;
+    border-top:1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+.reg-occ p, label{
+    font-size: 16px;
+}
+.reg-occ select{
+    width: 50%;
+}
+.reg-tinfo{
+    border: 1px solid #000;
+    padding: 10px 30px;
+    background-color: #fff;
+}
+.reg-tinfo h4{
+    padding: 10px 0;
+    border-top:1px solid #000;
+    border-bottom: 1px solid #000;
+}
+.reg-tinfo h3{
+    padding: 15px 0;
+    border-top:2px solid #000;
+    border-bottom: 2px solid #000;
+}
+.payment-form{
+    padding: 10px 20px;
+    background: #fdee18;
+    box-shadow: 4px 4px 8px #777;
+    margin: 30px 0 50px 0;
+}
+.payment-form img{
+    margin-bottom: 15px;
+}
+#enroll-area{
+	max-height: 600px;
+	border: 2px solid #999;
+	padding: 12px 38px;
+	margin:0 10%;
+	overflow-y: scroll;
+}
+#enroll-area h2{
+	text-align: center;
+}
+.inc-address{
+	
+}
+.form-legal{
+	margin: 24px 0;
+	padding: 12px;
+}
+
+/*----------Participants' interface---------*/
+.part{
+    padding: 0 30px;
+}
+
+.part-header p{
+    background: #000;
+    color: #fff;
+    margin: 50px 0 0 0;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 10px 10px 0px 0px;
+}
+.part-main-layout{
+    padding: 20px 30px;
+    background: #fff;
+}
+.part-main-layout h4{
+    padding: 6px 12px;
+    background: #777;
+    color: #fff;
+}
+.part-main-layout article{
+    padding: 20px 30px;
+    background: #f5f5f5;
+    font-size: 16px;
+    line-height: 24px;
+    font-style: italic;
+    margin: 10px 0;
+    text-align: justify;
+}
+.part-main-layout h3{
+    padding: 15px 30px;
+    background: #1386ff;
+    color: #fff;
+}
+.part-main-buttons{
+    padding: 15px 10px;
+    border-top: 1px solid #1386ff;
+    border-bottom: 1px solid #1386ff;
+}
+.part-main-buttons button{
+    display: inline-block;
+    margin-right: 10px;
+    font-weight: 700;
+}
+
+.part-main-sidebar{
+    padding: 30px 20px;
+    background: #ffcc00;
+}
+.part-main-sidebar h4{
+    padding: 10px 15px;
+    background: #777;
+    color: #fff;
+}
+.part-main-sidebar p{
+    padding: 0 15px;
+}
+
