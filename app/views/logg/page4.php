@@ -7,7 +7,8 @@ if(is_array($res)){
 }else{
     $suc = false;
 }
-        
+
+
 
 if($suc){
 self::model('registration')->confirmReg($data);
@@ -40,7 +41,11 @@ self::model('registration')->confirmReg($data);
     </div>
 </div>
 
-<?php } ?>
+<?php } 
+
+echo 'aaaaaaaaaaaaa';
+var_dump($res);
+?>
 <script>
     
     function newPopup(url) {

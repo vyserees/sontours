@@ -29,7 +29,7 @@ class Logg extends Model{
             $_SESSION['USER_ID'] = $res[0]['id'];
             $_SESSION['USER_ROLE'] = $res[0]['role'];
             
-            if($res[0]['role']==='P'){
+            if($res[0]['role']==='U'){
                 header('Location: /myprofile');
             }elseif($res[0]['role']==='G'){
                 header('Location: /leaders');

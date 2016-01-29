@@ -29,7 +29,7 @@
                         <td style="text-align: right;"><?php echo ($i+1).'.'; ?></td>
                         <td><?php echo $data['students'][$i]['stu_lastname'].' '.$data['students'][$i]['stu_firstname']; ?></td>
                         <td style="text-align: center;"><button class="btn btn-success"><i class="fa fa-search"></i></button></td>
-                        <td style="text-align: center;"><button class="btn btn-warning"><i class="fa fa-envelope-o"></i></button></td>
+                        <td style="text-align: center;"><a href="/leaders-mailto/<?=$data['students'][$i]['stu_user_id']?>/topar=<?=$data['leader']['id']?>" class="btn btn-warning"><i class="fa fa-envelope-o"></i></a></td>
                     </tr>
                     <?php }?>
                 </table>

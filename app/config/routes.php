@@ -27,6 +27,7 @@ $routes = array(
         'myprofile'=>array('controller'=>'participants','method'=>'index'),
     
         'leaders'=>array('controller'=>'groupleaders','method'=>'index'),
+        'leaders-mailto'=>array('controller'=>'groupleaders','method'=>'emailto'),
     
         'admin-main'=>array('controller'=>'admin','method'=>'index')
     

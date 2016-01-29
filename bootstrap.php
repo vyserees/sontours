@@ -35,5 +35,6 @@ function class_autoloader($class_name) {
         }
     }
 spl_autoload_register('class_autoloader');
+require_once 'functions.php';
 
 

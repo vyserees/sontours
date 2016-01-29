@@ -4,7 +4,7 @@ $db = array();
 $db['DB_HOST'] = 'localhost';
 $db['DB_NAME'] = 'sontours';
 $db['DB_USER'] = 'root';
-$db['DB_PASS'] = '';
+$db['DB_PASS'] = '123test';
 //-----details------
 $db['DB_TYPE'] = 'PDO';
 $db['DB_CHARSET'] = 'utf8';
