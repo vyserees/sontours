@@ -9,5 +9,10 @@ class Groupleaders extends Controller{
         $data = array($parent,$to,$s);
         self::view('groupleaders/mailto',$data);
     }
+    public function emSent(){
+        $post = filter_input_array(INPUT_POST);
+        self::model('users')->leadersSentEmail($post);
+        self::view('groupleaders/emsent');
+    }
 }
 

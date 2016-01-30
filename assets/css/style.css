@@ -184,6 +184,7 @@ label{
 .part-main-layout{
     padding: 20px 30px;
     background: #fff;
+    min-height: 500px;
 }
 .part-main-layout h4{
     padding: 6px 12px;

@@ -31,7 +31,7 @@ switch($param[0]){
                     <input type="hidden" name="emailfrom" value="<?=$emailfrom?>">
                     <input type="hidden" name="glid" value="<?=$l['id']?>">
                     <label>Text of the message:</label>
-                    <textarea rows="12" class="form-control"></textarea>
+                    <textarea name="text" rows="12" class="form-control"></textarea>
                     <hr>
                     <input type="submit" value="SEND EMAIL" class="btn btn-primary">
                     <a href="/leaders" class="btn btn-danger pull-right">BACK TO MAIN PAGE</a>

@@ -57,4 +57,26 @@ class Users extends Model{
         
         return $ret;
     }
+    public function leadersSentEmail($post){
+        $le = q_custom("SELECT * FROM groupleaders "
+                . "INNER JOIN users ON lea_user_id=id "
+                . "JOIN tours ON lea_tour_id=tou_id "
+                . "AND lea_id=".$post['glid']);
+        
+        if($post['emailto']==='all'){
+            $pa = q_custom("SELECT * FROM enroll_full "
+                    . "INNER JOIN users ON enf_user_id=id "
+                    . "AND enf_status='C' AND enf_tour_id=".$le[0]['lea_tour_id']);
+            foreach ($pa as $p){
+                $message = '<strong>'.$le[0]['firstname'].' '.$le[0]['lastname'].', group leader of '.$le[0]['tou_title'].' sent you the message:</strong>';
+                $message .= '<article><em>'.$post['text'].'</em></article>';
+                mailing($p['email'], $post['emailfrom'], 'Message from groupleader', $message);
+            }
+            
+        }else{
+            $message = '<strong>'.$le[0]['firstname'].' '.$le[0]['lastname'].', group leader of '.$le[0]['tou_title'].' sent you the message:</strong>';
+            $message .= '<article><em>'.$post['text'].'</em></article>';
+            mailing($post['emailto'], $post['emailfrom'], 'Message from groupleader', $message);
+        }
+    }
 }

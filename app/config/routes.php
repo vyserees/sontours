@@ -28,11 +28,13 @@ $routes = array(
     
         'leaders'=>array('controller'=>'groupleaders','method'=>'index'),
         'leaders-mailto'=>array('controller'=>'groupleaders','method'=>'emailto'),
+        'leaders-emsent'=>array('controller'=>'groupleaders','method'=>'emSent'),
     
-        'admin-main'=>array('controller'=>'admin','method'=>'index')
+        'admin-main'=>array('controller'=>'admin','method'=>'index'),
     
     
     
     /*ajax routes*/
         //'mailtogl'=>array('controller'=>'ajax','method'=>'mailtogl')
+        'ajax-showstudet'=>array('controller'=>'ajax','method'=>'showStuDet')
 	);
